@@ -1,6 +1,6 @@
 {
   "name": "nuxt-actions-demo",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "vue nuxt realworld github actions",
   "main": "index.js",
   "scripts": {
