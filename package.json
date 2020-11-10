@@ -1,15 +1,16 @@
 {
-  "name": "realworld-nuxtjs",
+  "name": "nuxt-actions-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "vue nuxt realworld github actions",
   "main": "index.js",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start"
   },
+  "homepage": "https://luopeihai.github.io/nuxt-actions-demo",
   "keywords": [],
-  "author": "",
+  "author": "lph",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
