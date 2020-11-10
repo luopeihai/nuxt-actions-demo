@@ -1,4 +1,4 @@
-name: Publish And Deploy nuxt Demo
+name: Publish And Deploy nuxt
 on:
   push:
     tags:
@@ -52,7 +52,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /root/realworld-nuxtjs
+            cd /var/www/node/nuxtdemo
             wget https://github.com/luopeihai/nuxt-actions-demo/releases/latest/download/release.tgz -O release.tgz
             tar zxvf release.tgz
             npm install --production
