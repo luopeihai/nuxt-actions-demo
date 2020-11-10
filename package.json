@@ -8,7 +8,6 @@
     "build": "nuxt build",
     "start": "nuxt start"
   },
-  "homepage": "https://luopeihai.github.io/nuxt-actions-demo",
   "keywords": [],
   "author": "lph",
   "license": "ISC",
