@@ -55,5 +55,5 @@ jobs:
             cd /var/www/node/nuxtdemo
             wget https://github.com/luopeihai/nuxt-actions-demo/releases/latest/download/release.tgz -O release.tgz
             tar zxvf release.tgz
-            npm install 
+            npm install --production
             pm2 reload pm2.config.json
